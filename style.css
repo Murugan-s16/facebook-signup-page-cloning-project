@@ -1,0 +1,115 @@
+body,h1,p,h2{
+   margin: 0;
+   font-family:  'Roboto', sans-serif;
+}
+.main{
+   background-color: #f0f2f5;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   padding: 50px;
+}
+#logo{
+   font-size: 45px;
+   color: 	#1877F2;
+   padding: 15px 0px;
+}
+.form{
+   width: 430px;
+background-color: white;
+   padding: 10px 10px;
+   border-radius: 10px;
+}
+.heading{
+   text-align: center;
+   padding: 10px;
+   border-bottom: 1px solid rgb(165, 165, 165);
+}
+h2{
+   padding-bottom: 5px;
+}
+.inputform{
+   padding: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+input,select{
+   padding: 8px;
+   border: 1px solid rgb(165, 165, 165) ;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+   
+}
+.half-width{
+   display: flex;
+   width:48%;
+}
+.full-width{
+   display: flex;
+   width: 100%;
+}
+.full1{
+   display: flex;
+   width: 100%;
+}
+label{
+   font-size: 12px;
+   padding-bottom: 10px;
+}
+.dob-div{
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+}
+.quat-width{
+   display: flex;
+   width: 31%;
+
+}
+.radio-btn{
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   width: 100%;
+   padding: 12px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.radio-label{
+   padding-bottom: 0px;
+   font-size: 15px;
+}
+.radio-input{
+   margin: 0px;
+   width: auto;
+ 
+}
+small{
+   font-size: 10px;
+   color: #777;
+   padding: 10px 0px;
+}
+ .anger{
+   text-decoration: none;
+ }
+ .btn{
+   background-color: #00a400;
+   width: 45%;
+   color: white;
+   font-size: 18px;
+   font-weight: 600;
+    align-items: center;
+     margin-left: 100px;
+     margin-top: 10px;
+ }
+ .anger1{
+   text-decoration: none;
+   padding: 10px 0px;
+   text-align: center;
+    margin-left: 100px;
+    
+ }
